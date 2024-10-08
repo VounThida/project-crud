@@ -9,7 +9,7 @@
             @method('PUT')
 
             <div class="mb-4">
-                <label for="name" class="block text-sm font-medium text-gray-700">Name:</label>
+                <label for="name" class="block text-sm font-medium text-gray-600">Name:</label>
                 <input type="text" name="name" id="name" value="{{ old('name', $tag->name) }}" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 p-3 transition duration-300 ease-in-out" placeholder="Enter tag name">
             </div>
 
